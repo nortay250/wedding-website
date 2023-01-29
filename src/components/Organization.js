@@ -17,37 +17,27 @@ function Organization() {
           <div className='col-md-3 item-box'>
             <h2 className='custom-font numb'>01</h2>
             <h6 className='title'>CHURCH CEREMONY</h6>
-            <p>
-              Delta tristiu the jusone duise vitae diam neque nivami mis est
-              augue artine aringilla the at elit finibus vivera.
-            </p>
+            <p>10am at Barker Road Methodist Church</p>
+            <p>48 Barker Rd, Singapore 309917</p>
           </div>
           <div className='col-md-3 item-box'>
             <h2 className='custom-font numb'>02</h2>
             <h6 className='title'>LUNCH BUFFET</h6>
-            <p>
-              Delta tristiu the jusone duise vitae diam neque nivami mis est
-              augue artine aringilla the at elit finibus vivera. The at elit
-              finibus.
-            </p>
+            <p>Lunch reception would be provided after the church wedding.</p>
           </div>
           <div className='col-md-3 item-box'>
             <h2 className='custom-font numb'>03</h2>
             <h6 className='title'>PRE DINNER</h6>
             <p>
-              Delta tristiu the jusone duise vitae diam neque nivami mis est
-              augue artine aringilla the at elit finibus vivera. The at elit
-              finibus.
+              Pre-dinner drinks would start at 6.30pm at Marriot Tang Hotel.
             </p>
+            <p>320 Orchard Rd, Singapore 238865</p>
           </div>
           <div className='col-md-3 item-box'>
             <h2 className='custom-font numb'>04</h2>
             <h6 className='title'>WEDDING DINNER</h6>
-            <p>
-              Delta tristiu the jusone duise vitae diam neque nivami mis est
-              augue artine aringilla the at elit finibus vivera. The at elit
-              finibus.
-            </p>
+            <p>Dinner would start at 7pm at Marriot Tang Hotel.</p>
+            <p>320 Orchard Rd, Singapore 238865</p>
           </div>
         </div>
       </div>

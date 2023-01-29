@@ -38,7 +38,7 @@ function Story() {
             <div className='col-md-6 text-center text-md-left'>
               <div className='h-100 d-flex flex-column justify-content-center p-4 ml-md-3 bg-text'>
                 <h4 className='mb-2'>First Meet</h4>
-                <p className='text-uppercase mb-2'>Jan 2016</p>
+                <p className='text-uppercase mb-2'>2016</p>
                 <p className='m-0'>
                   Met at Trackers, a 3-mth Christian programme, where we were
                   placed in the same group. We would then go on to also be in
@@ -52,12 +52,12 @@ function Story() {
             <div className='col-md-6 text-center text-md-left'>
               <div className='h-100 d-flex flex-column justify-content-center p-4 mr-md-3 bg-text'>
                 <h4 className='mb-2'>First Date</h4>
-                <p className='text-uppercase mb-2'>Aug 2019</p>
+                <p className='text-uppercase mb-2'>2019</p>
                 <p className='m-0'>
                   Went to the Bicentennial Experience at Fort Canning Park and
-                  ate Stuff'd for the first time. But actually no photo so
-                  here's our next photo together - running a marathon in Dec
-                  2019!
+                  ate Stuff'd for the first time. Unfortunately we didn't take a
+                  photo so here's our next photo together - running a marathon
+                  in Dec 2019!
                 </p>
               </div>
             </div>
@@ -80,7 +80,7 @@ function Story() {
             <div className='col-md-6 text-center text-md-left'>
               <div className='h-100 d-flex flex-column justify-content-center p-4 ml-md-3 bg-text'>
                 <h4 className='mb-2'>Proposal</h4>
-                <p className='text-uppercase mb-2'>OCT 2022</p>
+                <p className='text-uppercase mb-2'>2022</p>
                 <p className='m-0'>
                   Glendon surprises Eleanor with a 10-point powerpoint on why
                   she should marry him. (But the true proposal was already done
@@ -93,7 +93,7 @@ function Story() {
             <div className='col-md-6 text-center text-md-left'>
               <div className='h-100 d-flex flex-column justify-content-center p-4 mr-md-3 bg-text'>
                 <h4 className='mb-2'>Wedding</h4>
-                <p className='text-uppercase mb-2'>AUG 2023</p>
+                <p className='text-uppercase mb-2'>2023</p>
                 <p className='m-0'>
                   Our wedding day! The day we officially become a family and we
                   want you there!

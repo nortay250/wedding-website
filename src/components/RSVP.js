@@ -59,10 +59,30 @@ function RSVP() {
               <div className='col-md-12'>
                 <div className='form-group'>
                   <input
+                    type='text'
+                    name='user_phone'
+                    className='form-control'
+                    placeholder='Phone Number'
+                  />{' '}
+                </div>
+              </div>
+              <div className='col-md-12'>
+                <div className='form-group'>
+                  <input
                     type='email'
                     name='user_email'
                     className='form-control'
                     placeholder='Email'
+                  />{' '}
+                </div>
+              </div>
+              <div className='col-md-12'>
+                <div className='form-group'>
+                  <input
+                    type='text'
+                    name='user_diet'
+                    className='form-control'
+                    placeholder='Dietry restrictions'
                   />{' '}
                 </div>
               </div>
@@ -74,34 +94,11 @@ function RSVP() {
                     cols='30'
                     rows='7'
                     className='form-control'
-                    placeholder='Message'
-                  ></textarea>
-                </div>
-              </div>
-              <div className='col-md-12'>
-                <div className='form-group'>
-                  <textarea
-                    name='message'
-                    id='message'
-                    cols='30'
-                    rows='7'
-                    className='form-control'
-                    placeholder='Message'
-                  ></textarea>
-                </div>
-              </div>
-              <div className='col-md-12'>
-                <div className='form-group'>
-                  <textarea
-                    name='question'
-                    id='question'
-                    cols='30'
-                    rows='7'
-                    className='form-control'
                     placeholder='What is one question or challenge you have for the couple?'
                   ></textarea>
                 </div>
               </div>
+
               <div className='col-md-12'>
                 <div className='form-group'>
                   <input type='submit' className='btn buttono' value='SEND' />{' '}
