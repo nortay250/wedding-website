@@ -1,35 +1,34 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 
-const { REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, REACT_APP_PUBLIC_KEY } =
-  process.env;
+// const { REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, REACT_APP_PUBLIC_KEY } =
+//   process.env;
 
 function RSVP() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        REACT_APP_SERVICE_ID,
-        REACT_APP_TEMPLATE_ID,
-        form.current,
-        REACT_APP_PUBLIC_KEY
-      )
-      .then(
-        (result) => {
-          e.target.reset();
-          toast.success('Your message has been sent successfully.');
+    // emailjs
+    //   .sendForm(
+    //     REACT_APP_SERVICE_ID,
+    //     REACT_APP_TEMPLATE_ID,
+    //     form.current,
+    //     REACT_APP_PUBLIC_KEY
+    //   )
+    //   .then(
+    //     (result) => {
+    //       e.target.reset();
+    //       toast.success('Your message has been sent successfully.');
 
-          console.log(result.text);
-          console.log('message sent');
-        },
-        (error) => {
-          toast.error('Sorry, something went wrong.');
-          console.log(error.text);
-        }
-      );
+    //       console.log(result.text);
+    //       console.log('message sent');
+    //     },
+    //     (error) => {
+    //       toast.error('Sorry, something went wrong.');
+    //       console.log(error.text);
+    //     }
+    //   );
   };
 
   return (
